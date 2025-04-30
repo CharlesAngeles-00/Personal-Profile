@@ -14,20 +14,15 @@ function App() {
       <Header />
       <div style={{ minHeight: '80vh' }}>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <section className="home">
-      <h1>Welcome to My Personal Profile</h1>
-      <p>Hi, I'm Angeles, Charles. This is my personal website where you can learn more about me, my education, projects, and how to contact me.</p>
-    </section>
       </div>
       <Footer />
     </Router>
-    
   );
 }
 
